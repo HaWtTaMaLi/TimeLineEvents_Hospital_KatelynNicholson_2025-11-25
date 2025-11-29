@@ -11,7 +11,7 @@ public class TimeLineTriggerThree : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             timeLine.Play();
-            rotateChair.SetTrigger("RotateChair");
+            rotateChair.Play("RotateChair");
         }
     }
 }
