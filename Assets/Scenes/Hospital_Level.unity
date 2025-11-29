@@ -7047,7 +7047,7 @@ PlayableDirector:
   m_GameObject: {fileID: 399626819}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 41ddb999a024ddc4c8ec806be63a2767, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 309f81d00a2f8ab479730f07ce91d58d, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -10517,7 +10517,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566889882}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -10696,6 +10696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d2c198b6de0804dbb61be8b971dbac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeLine: {fileID: 1656127090}
 --- !u!1001 &569611254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14910,8 +14911,8 @@ Transform:
   - {fileID: 566889886}
   - {fileID: 1115457338}
   - {fileID: 1075698087}
-  - {fileID: 1457083326}
   - {fileID: 1773397216}
+  - {fileID: 1457083326}
   - {fileID: 1656127091}
   - {fileID: 1830145575}
   - {fileID: 399626820}
@@ -17275,7 +17276,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1075698086}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -17333,7 +17334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a145d116aa0365144b27f615f948638b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLine: {fileID: 0}
+  timeLine: {fileID: 1830145576}
 --- !u!1001 &1078532205
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17858,6 +17859,7 @@ MonoBehaviour:
   monsterIdle: {fileID: 443934137}
   olivia: {fileID: 118547161}
   trigger: {fileID: 566889882}
+  closeDoor: {fileID: 693061908411670512}
 --- !u!1001 &1115501331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18090,7 +18092,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122954120}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -28589,7 +28591,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773397215}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -28647,7 +28649,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3525c458f219c584380fb635ede70e6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLine: {fileID: 0}
+  timeLine: {fileID: 399626821}
+  rotateChair: {fileID: 0}
 --- !u!1001 &1778679121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29691,7 +29694,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1830145574}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 41ddb999a024ddc4c8ec806be63a2767, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 555ec722de21eea4884bf6b8679286e5, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1

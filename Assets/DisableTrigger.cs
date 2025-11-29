@@ -5,6 +5,7 @@ public class DisableTrigger : MonoBehaviour
     public GameObject monsterIdle;
     public GameObject olivia;
     public GameObject trigger; //because it has audio attached
+    public Animator closeDoor;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -13,6 +14,7 @@ public class DisableTrigger : MonoBehaviour
             monsterIdle.SetActive(false);
             olivia.SetActive(false);
             trigger.SetActive(false);
+            closeDoor.SetTrigger("CloseDoor");
         }
     }
 }
