@@ -10,7 +10,6 @@ public class EnemyMovement : MonoBehaviour
     public void Start()
     {
         monsterRunner = GetComponent<NavMeshAgent>();
-
     }
 
     public void Update()
