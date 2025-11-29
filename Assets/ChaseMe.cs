@@ -9,6 +9,7 @@ public class EnemyMovement : MonoBehaviour
 
     public void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         monsterRunner = GetComponent<NavMeshAgent>();
     }
 
