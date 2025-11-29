@@ -4,6 +4,7 @@ public class ChaseTrigger : MonoBehaviour
 {
     public EnemyMovement enemy;
     public GameObject monsterChase;
+    public AudioSource heartBeat;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -11,6 +12,7 @@ public class ChaseTrigger : MonoBehaviour
         {
             monsterChase.SetActive(true);
             enemy.ActivateChase();
+            heartBeat.Play();
         }
     }
 }
